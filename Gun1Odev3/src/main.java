@@ -17,7 +17,7 @@ public class main {
 			System.out.println("sayi1,sayi2den küçüktür.");			
 		}
 	
-		// BÜYÜK-KÜÇÜK HARF DUYARLILIĞI VAR
+		
 		int Grade = 'D';
 		
 		switch (Grade) {
