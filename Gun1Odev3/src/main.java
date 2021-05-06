@@ -31,7 +31,7 @@ public class main {
 			System.out.println("İyi Geçtiniz");	
 			break;
 		case 'D':
-			System.out.println("Kaldınız İyi Çalışmalısın");	
+			System.out.println("Kaldınız İyi Çalışmalısın ");	
 			break;
 		default:
 			
