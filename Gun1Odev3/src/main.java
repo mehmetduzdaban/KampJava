@@ -10,6 +10,7 @@ public class main {
 		int sayi3 = sayi1 + sayi2;
 		System.out.println("Sayi1 ve Sayi2 Toplamı =" +sayi3);
 		
+		// if-else
 		if(sayi1>sayi2)
 		{
 			System.out.println("sayi1,sayi2den büyüktür.");
@@ -18,6 +19,8 @@ public class main {
 		}
 	
 		
+		
+		// switch case
 		int Grade = 'D';
 		
 		switch (Grade) {
@@ -36,6 +39,14 @@ public class main {
 		default:
 			
 		}
+		
+		
+		// for döngüsü
+		for(int i=1;i<=10;i++) {
+			System.out.println(i);
+		}
+		System.out.println("Döngü Bitti ");
+		
 		
 	}
 
