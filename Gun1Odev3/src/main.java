@@ -192,11 +192,11 @@ public class main {
 	   }
 	
 	   
-	   */
+	   
 		
-		System.out.println("DERS 21");
+	System.out.println("DERS 21");
 		
-		int sayi=29;
+	   int sayi=28;
  	   int total=0;
  	   for(int i=1;i<sayi;i++)
  	   {
@@ -210,6 +210,25 @@ public class main {
  		   System.out.println("mükemmel sayI değil");
  	   }
 	   
+ 	   */
+		System.out.println("DERS 23");
+ 	  int [] sayilar=new int[] {1,2,5,7,9,0};
+	   int aranacak=4;
+	   boolean durum=false;
+	   for(int sayi:sayilar) {
+		   if(sayi == aranacak) {
+			   durum=true;
+			   break;
+		   }
+	   }
+	   if(durum) {
+		   System.out.println("sayı mevcut.");
+	   }else {
+		   System.out.println("sayı mevcut değil");
+	   }
+	   
+ 	   
+ 	   
 	   
 	}
 
