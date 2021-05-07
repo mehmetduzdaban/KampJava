@@ -115,7 +115,7 @@ public class main {
 	   sehirler[2][1]="ŞanlıUrfa";
 	   sehirler[2][2]="Gaziantep";
 	   for(int i=0;i<=2;i++) {
-		   System.out.println("---iç içe döngü---");
+		   System.out.println("---iç içe döngüler---");
 		   for(int j=0;j<=2;j++) {
 			   System.out.println(sehirler[i][j]);
 		   }
