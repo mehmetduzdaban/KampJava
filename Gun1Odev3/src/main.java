@@ -122,6 +122,26 @@ public class main {
 	   }
 	   
 	   
+	   
+	 String mesaj="augün hava çok güzel.    ";
+ 	 System.out.println(mesaj);
+ 	 System.out.println("Eleman sayısı : "+mesaj.length());
+ 	   System.out.println("5.eleman : "+mesaj.charAt(4));
+ 	   System.out.println("ekleme yapma: "+mesaj.concat("Yaşasın!"));
+ 	   System.out.println("A harfi ile mi başlıyor "+mesaj.startsWith("A"));
+ 	   System.out.println(". ile mi bitiyor : "+mesaj.endsWith("."));
+ 	   char [] karakterler=new char[5];
+ 	   
+ 	   mesaj.getChars(0,4 ,karakterler,0);
+ 	   System.out.println(karakterler);
+ 	   
+ 	   System.out.println(mesaj.indexOf('a'));
+ 	   System.out.println(mesaj.lastIndexOf("e"));
+ 	 
+ 	  
+	   
+	   
+	   
 	}
 	
 	
