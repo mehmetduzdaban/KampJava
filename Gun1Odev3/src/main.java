@@ -59,7 +59,7 @@ public class main {
 		
  	   
  	   
- 	   */
+ 	  
  	   
 		System.out.println("diziler başlangıç");
  	   
@@ -123,7 +123,7 @@ public class main {
 	   
 	   
 	   
-	 String mesaj="augün hava çok güzel.    ";
+	 String mesaj="Amanda bugün hava çok güzel.    ";
  	 System.out.println(mesaj);
  	 System.out.println("Eleman sayısı : "+mesaj.length());
  	   System.out.println("5.eleman : "+mesaj.charAt(4));
@@ -139,13 +139,78 @@ public class main {
  	   System.out.println(mesaj.lastIndexOf("e"));
  	 
  	  
+		//Java Dersi 18 : String fonksiyonları
+		String mesaj=" Bugün hava çok güzel. ";
+  	  	String yeniMesaj=mesaj.replace(' ','-');
+  	  	System.out.println("Değiştirme : "+ yeniMesaj);
+  	   
+  	  	System.out.println(mesaj.substring(2,4));
+  	   
+  	   for(String kelime:mesaj.split(" ")) {
+  		   System.out.println(kelime); 
+  	   }
+  	   System.out.println(mesaj.toLowerCase());
+  	   System.out.println(mesaj.toUpperCase());
+  	   System.out.println(mesaj.trim());
+  	   
+  	   // ders 19 asal sayı
+		
+  	 int number=13;
+	   int total=0;
+	   for(int i=2;i<number;i++)
+	   {
+		   if(number%i==0) {
+			   System.out.println("sayı asal değil");
+		      total+=1;
+		   }
+		   
+	   }
+	   if(total==0)
+	   {
+		   System.out.println("sayı asaldır.");
+	   }
+  	   
+
+
+		
+		
+		System.out.println("DERS 20 Sesli Harfler");
+	char harf='E';
 	   
+	char[] sesliHarf= {'A','E','i','O','Ö','I','U','Ü'};
+	   boolean durum=false;
+	   for(char arama:sesliHarf) {
+		   if(arama==harf) {
+			   durum=true;
+		   } 
+	   }
+	   if(durum) {
+		   System.out.println("sesli harf");
+	   }
+	   else {
+		   System.out.println("sessiz harf");
+	   }
+	
+	   
+	   */
+		
+		System.out.println("DERS 21");
+		
+		int sayi=29;
+ 	   int total=0;
+ 	   for(int i=1;i<sayi;i++)
+ 	   {
+ 		   if(sayi%i==0) {
+ 			   total+=i;
+ 		   }
+ 	   }
+ 	   if(total==sayi) {
+ 		   System.out.println("mükemmel sayı");
+ 	   }else {
+ 		   System.out.println("mükemmel sayI değil");
+ 	   }
 	   
 	   
 	}
-	
-	
-	
-	
 
 }
