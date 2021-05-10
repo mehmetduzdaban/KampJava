@@ -2,8 +2,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		
-		
+			
 		//ders 31
 		DortIslem dortýslem = new DortIslem();
 		int sonuc = dortýslem.Topla(5, 10);
